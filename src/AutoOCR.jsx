@@ -116,29 +116,25 @@ const AutoOCR = () => {
   };
 
   return (
-    // <div style={{ padding: 20, fontFamily: "Arial" }}>
-    //   <h2>Mobile OCR — Automatic Capture</h2>
-    //   <p>Keep phone steady above the printer output tray.</p>
-
-    //   <video
-    //     ref={videoRef}
-    //     autoPlay
-    //     playsInline
-    //     style={{ width: "100%", maxWidth: 400 }}
-    //   ></video>
-
-    //   <canvas ref={canvasRef} style={{ display: "none" }}></canvas>
-
-    //   <h3>Status:</h3>
-    //   <div style={{ fontWeight: "bold", color: "green" }}>{status}</div>
-
-    //   <h3>Extracted Text:</h3>
-    //   <div style={{ whiteSpace: "pre-wrap", marginTop: 10 }}>{output}</div>
-    // </div>
     <div style={{ padding: 20, fontFamily: "Arial" }}>
       <h2>Mobile OCR — Automatic Capture</h2>
       <p>Keep phone steady above the printer output tray.</p>
-      </div>
+
+      <video
+        ref={videoRef}
+        autoPlay
+        playsInline
+        style={{ width: "100%", maxWidth: 400 }}
+      ></video>
+
+      <canvas ref={canvasRef} style={{ display: "none" }}></canvas>
+
+      <h3>Status:</h3>
+      <div style={{ fontWeight: "bold", color: "green" }}>{status}</div>
+
+      <h3>Extracted Text:</h3>
+      <div style={{ whiteSpace: "pre-wrap", marginTop: 10 }}>{output}</div>
+    </div>
   );
 };
 
