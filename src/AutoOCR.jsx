@@ -118,7 +118,7 @@ const AutoOCR = () => {
   return (
     <div style={{ padding: 20, fontFamily: "Arial" }}>
       <h2>Mobile OCR — Automatic Capture</h2>
-      <p>Keep phone steady above the printer output tray.</p>
+      <p>Keep phone steady above the printer output</p>
 
       <video
         ref={videoRef}
